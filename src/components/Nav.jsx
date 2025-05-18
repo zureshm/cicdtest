@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
   return (
-    <div style={{background:'gold', color:'#ccc', padding:'10px'}}>
+    <div style={{background:'lime', color:'#ccc', padding:'10px'}}>
         <ul>
             <li><Link to='/'>Login</Link></li>
             <li><Link to='/dashboard'>Dashboard</Link></li>

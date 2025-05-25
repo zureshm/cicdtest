@@ -2,7 +2,7 @@
 import './App.css';
 import Dashboard from './components/Dashboard';
 import {Routes, Route} from 'react-router-dom'
-import Login from './components/Login';
+import LoginForm from './components/LoginForm';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import UserList from './components/UserList';
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route element={<Main />}>
       
-        <Route path='/' element={<Login />} />
+        <Route path='/' element={<LoginForm />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/userlist' element={<UserList />} />
 
